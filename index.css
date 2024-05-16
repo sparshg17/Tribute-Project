@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.layout{
+    background-color:#E5E5FD;
+    margin: 10px;
+    border: 10px solid #1d1e4c;
+    min-height: 100vh;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.apj-image{
+    margin-right: 100px;
+}
+
+.apj-image img{
+    height: 320px;
+    width: 300px;
+}
+
+.apj-title {
+    margin-bottom: 40px;
+}
+.apj-title h1 {
+    line-height: 4rem;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.apj-title h2{
+    float: right;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.description {
+    text-align: justify;
+    margin: 20px;
+}
+
+.description h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.description p {
+    margin:20px;
+}
